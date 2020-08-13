@@ -1,13 +1,13 @@
 # Site settings
-title: Alex Mayfield
+title: Alex R. Mayfield
 description: Jekyll Theme Minimal Resume
 baseurl: "https://alex-mayfield.github.io" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Alex Mayfield
-user_description: I\'m a nomad Software Engineer, always searching for the next challenge; no task is too scary nor too difficult. Lately I have been immersed in the <b>crypto-world</b> working for Radix, a London based startup trying to create the next massive scalable DLT. I'm one of the two guys behind all the JS related stuff.
-user_title: Global Church Historian
+user_description: I help students understand the complex, rich, and interconnected history of global Christianity and the pentecostal movement.
+user_title: Global Church Historian and Pentecostal Scholar
 email: mayfieaa@bu.edu
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
