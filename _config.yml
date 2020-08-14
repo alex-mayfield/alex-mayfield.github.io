@@ -1,7 +1,7 @@
 # Site settings
 title: Alex R. Mayfield
 description: Global Church Historian and Pentecostal Scholar
-baseurl: "https://alex-mayfield.github.io" # the subpath of your site, e.g. /blog
+baseurl: #"https://alex-mayfield.github.io" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
@@ -13,4 +13,11 @@ email: mayfieaa@bu.edu
 # github_username:  lorem_ipsum
 # gplus_username:  lorem_ipsum
 
-exclude: ['package.json', 'src' , 'node_modules']
+sass:
+    sass_dir: src/styles
+    style: compressed
+
+exclude:
+  - package.json
+  #- src
+  - node_modules

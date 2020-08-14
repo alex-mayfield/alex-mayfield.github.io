@@ -1,0 +1,21 @@
+list:
+  - title: China Historical Christian Database
+    img: /assets/img/chcd-logo.png
+    link: https://cc-database.com/
+    role: Project Manager
+    date: Since 2018
+  - title: China Christian Posters Project
+    img: /assets/img/ccp-logo.png
+    link: https://ccposters.com/
+    role: Digital Architect & Technical Advisor
+    date: Since 2017
+  - title: China Historical Christian Database
+    img: /assets/img/dacb-logo.png
+    link: http://dacb.org/
+    role: Digital Architect & Technical Advisor
+    date: Since 2017
+  - title: Asia at the World's Fairs
+    img: /assets/img/awf-logo.png
+    link: http://beta.asiaworldsfairs.org/
+    role: Digital Architect
+    date: 2019

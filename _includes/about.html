@@ -1,39 +1,235 @@
+
 <!-- PURPOSE STATEMENT -------------------------------------------------------------------------------------->
-<div class="user-details">
-  <h1>What I Do</h1>
-  <p>{{ site.user_description }}</p>
+<div class="section-title" id="purpose">
+  <div class="profile-pic"></div>
+    <div class="purpose-statement">
+      <h1 style="border:none !important;">What I Do</h1>
+      <p>{{ site.user_description }}</p>
+    </div>
 </div>
 
 <!-- EDUCATION -------------------------------------------------------------------------------------->
-<div class="user-details">
-  <h1>Education</h1>
+<div class="section-title" id="education"><h1>Education</h1></div>
+
+<div class="row">
+  <div class="third">
+    <h2>Doctorate</h2>
+    <p><b>2021</b><br>Will recieve a Ph.D. in World Christianity from Boston University, School of Theology. Exams: World Christianity and Missiology.</p>
+  </div>
+  <div class="third">
+    <h2>Masters</h2>
+    <p><b>2016</b><br>Recieved a M.Div. from Boston College, School of Theology and Ministry.</p>
+  </div>
+  <div class="third">
+    <h2>Bachelors</h2>
+    <p><b>2007</b><br>Received a B.A. from Oral Roberts University with majors in Theological & Historical Studies and Missions.</p>
+  </div>
 </div>
-<div class="user">
-  <div class="tech">
-    <h2>Educa</h2>
-    <p>I feel comfortable working on the front-end, going from pure CSS & HTML5 to Sass, Bootstrap or AngularJS/2+, VueJS and whatever!</p>
-  </div>
-  <div class="tech">
-    <h2>Code</h2>
-    <p>My main development languages are Java and JavaScript, but I have worked with Go, Python, PHP and more..</p>
-  </div>
-  <div class="tech">
-    <h2>Tools</h2>
-    <p>Git, Gulp, Grunt, NPM, Linux, Docker, you name it, I have used a bajillion tools!</p>
+
+<!-- PUBLICATIONS -------------------------------------------------------------------------------------->
+<div class="section-title" id="publications"><h1>Publications</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% assign book = site.data.publications.list | where: 'type','book' | sort: 'year' | reverse %}
+    {% assign article = site.data.publications.list | where: 'type','article' | sort: 'year' | reverse %}
+    {% assign chapter = site.data.publications.list | where: 'type','chapter' | sort: 'year' | reverse %}
+    {% assign review = site.data.publications.list | where: 'type','review' | sort: 'year' | reverse %}
+    {% assign encyclopedia = site.data.publications.list | where: 'type','encyclopedia' | sort: 'year' | reverse %}
+
+    {% for item in book %}
+      {% if forloop.first %}
+        <h2>Monographs</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
+    {% for item in article %}
+      {% if forloop.first %}
+        <h2>Peer-Reviewed Journal Articles</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
+    {% for item in chapter %}
+      {% if forloop.first %}
+        <h2>Book Chapters</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
+    {% for item in review %}
+      {% if forloop.first %}
+        <h2>Book Reviews</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
+    {% for item in encyclopedia %}
+      {% if forloop.first %}
+        <h2>Encylopedia Articles</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
   </div>
 </div>
-<!-- EDUCATION -------------------------------------------------------------------------------------->
-<div class="user">
-  <div class="tech">
-    <h2>Design</h2>
-    <p>I feel comfortable working on the front-end, going from pure CSS & HTML5 to Sass, Bootstrap or AngularJS/2+, VueJS and whatever!</p>
+
+<!-- DIGITAL PROJECTS -------------------------------------------------------------------------------------->
+<div class="section-title" id="projects"><h1>Digital Projects</h1></div>
+
+{% for item in site.data.digital-projects.list %}
+  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% if loopindex == 1 %}
+  <div class="row">
+  <div class="third">
+    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+    </div>
+  {% elsif loopindex == 2 %}
+  <div class="third">
+    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+    </div>
+  {% elsif loopindex == 3 %}
+  <div class="third">
+    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+    </div>
+  {% else %}
+  <div class="third">
+    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+  </div></div>
+  {% endif %}
+{% endfor %}
+
+<!-- MINISTRY EXPERIENCE -------------------------------------------------------------------------------------->
+<div class="section-title" id="experience"><h1>Ministry Experience</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.ministry.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
   </div>
-  <div class="tech">
-    <h2>Code</h2>
-    <p>My main development languages are Java and JavaScript, but I have worked with Go, Python, PHP and more..</p>
+</div>
+
+<!-- TEACHING & RESEARCH EXPERIENCE --------------------------------------------------------------------------->
+<div class="section-title" id="teaching"><h1>Teaching & Research Experience</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.teaching-research.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
+            <ul>
+              {% for entry in item.details %}
+                <li> {{entry.exp }}</li>
+              {% endfor %}
+            </ul>
+          </td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
+            <ul>
+              {% for entry in item.details %}
+                <li> {{entry.exp }}</li>
+              {% endfor %}
+            </ul>
+          </td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
   </div>
-  <div class="tech">
-    <h2>Tools</h2>
-    <p>Git, Gulp, Grunt, NPM, Linux, Docker, you name it, I have used a bajillion tools!</p>
+</div>
+
+<!-- AWARDS --------------------------------------------------------------------------------------------------->
+<div class="section-title" id="awards"><h1>Scholarships & Awards</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.awards.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
+<!-- CONFERENCE ----------------------------------------------------------------------------------------------->
+<div class="section-title" id="speaking"><h1>Conference Presentations</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.conferences.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.meeting}}</i>.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.meeting}}</i>.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
+<!-- SERVICE -------------------------------------------------------------------------------------------------->
+<div class="section-title" id="service"><h1>Service to Profession</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.service.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+<!-- AFFILIATIONS --------------------------------------------------------------------------------------------->
+<div class="section-title"><h1>Professional Affiliations</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.affiliations.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.affiliation}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.affiliation}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
   </div>
 </div>

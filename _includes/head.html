@@ -1,3 +1,4 @@
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -5,7 +6,20 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+  <script type="text/javascript">
+    var totalCount = 8;
+    function ChangeIt()
+      {
+        var num = Math.ceil( Math.random() * totalCount );
+        document.getElementById("particles-js").style.backgroundRepeat = "no-repeat";
+        document.getElementById("particles-js").style.backgroundPosition = "center";
+        document.getElementById("particles-js").style.backgroundSize = "cover";
+        document.getElementById("particles-js").style.backgroundImage='assets/img/bg-0'+num+'.jpg';
+        document.body.background = '#ffffff';
+        document.body.style.backgroundRepeat = "no-repeat";
+      }
+  </script>
+  <link rel="stylesheet" href="{{ '/src/styles/main.css' | prepend: site.baseurl }}">
   <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+
 </head>

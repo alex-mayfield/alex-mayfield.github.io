@@ -1,6 +1,36 @@
+ table {
+    margin-top: .5em;
+}
+.publication td {
+  text-align: left;
+  font-size: 16px;
+  vertical-align: top;
+  padding: .25em;
+  min-width: 80px;
+}
+
+.profile-pic {
+    background-image: url('/assets/img/alex.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em;
+    height: 200px;
+    width: 200px;
+    float: left;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    }
+
+.purpose-statement {
+
+}
+
 #about {
   font-size: 120%;
-  
+
   width: 90%;
   margin: 0 auto;
   max-width: 960px;
@@ -13,15 +43,39 @@
   }
 }
 
-.tech {
+.third {
   margin: 10px;
   flex: 1 1 0;
+  text-align: center;
+  max-width: 33%;
+  padding: 0 .25em;
+  h2, h3 {
+    font-weight: 400;
+  }
+  img {
+    width: 100%;
+    vertical-align: bottom;
+    padding-bottom: .5em;
+  }
+  a:hover {
+    opacity: .7;
+    transition:opacity .25s;
+  }
+  p {
+    margin-top: 0em;
+  }
+}
+
+.full {
+  margin: 10px;
+  width: 100%;
+  text-align: justify;
+  padding: 0 .25em;
   h2, h3 {
     font-weight: 400;
   }
 }
-
-.user {
+.row {
   text-align: center;
   font-size: 60px;
   display: flex;
@@ -36,8 +90,18 @@
     font-size: 75px;
   }
 }
-
-.user-details {
+.row-full {
+  text-align: center;
+  font-size: 60px;
+  justify-content: space-between;
+  p {
+    font-size: 16px;
+  }
+  @media only screen and (min-width: $cut) {
+    font-size: 75px;
+  }
+}
+.section-title {
   text-align: center;
   margin: 5px auto;
   h1 {
