@@ -1,7 +1,7 @@
 list:
   - title: Galleons from the “Mouth of Hell:” Empire and Religion in 17th Century Acapulco
     type: article
-    year: 2018
+    year: "2018"
     journal: Journal of Early Modern Christianity
     vol_iss: 5.2
     book:
@@ -11,7 +11,7 @@ list:
     author:
   - title: The Question of Power in African Pentecostalism
     type: article
-    year: 2018
+    year: "2018"
     journal: "Spiritus: ORU Journal of Theology"
     vol_iss: 3.1
     book:
@@ -21,7 +21,7 @@ list:
     author:
   - title: "Spiritual Exceptionalism?: An Ethnographic Survey of Transnational Pentecostal Communities in Boston’s Inner Core"
     type: article
-    year: 2017
+    year: "2017"
     journal: Missiology
     vol_iss: 45.3
     book:
@@ -31,7 +31,7 @@ list:
     author:
   - title: "Seal of the Spirit: The Sacrament of Confirmation and Pentecostal ‘Spirit Baptism’"
     type: article
-    year: 2016
+    year: "2016"
     journal: Journal of Pentecostal Theology
     vol_iss: 25.2
     book:
@@ -41,7 +41,7 @@ list:
     author:
   - title: "Shanghai Brothels, Spirit Baptisms: The Door of Hope Women as a Source for Pentecostal Ressourcement"
     type: chapter
-    year: Forth.
+    year: Forthcoming
     journal:
     vol_iss:
     book: "Sisters, Mothers, Daughters: Pentecostal Perspectives on Violence Against Women"
@@ -51,7 +51,7 @@ list:
     author:
   - title: "Simon K.H. Chan: A Pentecostal Theologian of the Church"
     type: chapter
-    year: Forth.
+    year: Forthcoming
     journal:
     vol_iss:
     book: Voices of the Spirit
@@ -61,7 +61,7 @@ list:
     author:
   - title: "Relocating World Christianity: Interdisciplinary Studies in Universal and Local Expressions of the Christian Faith"
     type: review
-    year: 2020
+    year: "2020"
     journal: Religious Studies Review
     vol_iss: 44.1
     book:
@@ -71,7 +71,7 @@ list:
     author: Joel Cabrita, David Maxwell and Emma Wild-Wood, eds.
   - title: "China and the True Jesus: Charisma and Organization in a Chinese Christian Church"
     type: review
-    year: 2019
+    year: "2019"
     journal: Pneuma
     vol_iss: 41.2
     book:
@@ -81,7 +81,7 @@ list:
     author: Melissa Wei-tsing Inouye
   - title: "Women in Pentecostal and Charismatic Ministry: Informing a Dialogue on Gender, Church, and Ministry"
     type: review
-    year: 2017
+    year: "2017"
     journal: Reading Religion
     vol_iss:
     book:
@@ -91,8 +91,8 @@ list:
     author: Margaret English de Alminana and Lois E. Olena, eds.
   - title: "Leaping the Digital Gorge: Datasets, Aesthetics, and the China Historical Christian Database"
     type: article
-    year: 2021
-    journal: Digital Humanities
+    year: "Forthcoming"
+    journal: Digital Humanities 數字人文
     vol_iss:
     book:
     edit:
@@ -101,7 +101,7 @@ list:
     author:
   - title: "Mission After Pentecost: The Witness of the Spirit from Genesis to Revelation"
     type: review
-    year: 2019
+    year: "Forthcoming"
     journal: International Bulletin of Mission Research
     vol_iss:
     book:
