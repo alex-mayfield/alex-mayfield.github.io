@@ -92,13 +92,13 @@ list:
   - title: "Testing"
     type: article
     year: 2017
-    journal: Reading Religion
-    vol_iss:
+    journal: Digital Humanities
+    vol_iss: 2
     book:
     edit:
-    publisher: "Leiden: Brill, 2016"
-    page: online
-    author: Margaret English de Alminana and Lois E. Olena, eds.
+    publisher:
+    page: xx
+    author:
 #  - title: "Testing"
 #    type: article
 #    year: Forthcoming
