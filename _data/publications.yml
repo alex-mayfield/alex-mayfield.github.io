@@ -89,16 +89,27 @@ list:
     publisher: "Leiden: Brill, 2016"
     page: online
     author: Margaret English de Alminana and Lois E. Olena, eds.
-  - title: "Testing"
-    type: article
-    year: Forthcoming
-    journal: Digital Humanities
-    vol_iss: 2
+    author: Melissa Wei-tsing Inouye
+  - title: "Women in Pentecostal and Charismatic Ministry: Informing a Dialogue on Gender, Church, and Ministry"
+    type: review
+    year: 2017
+    journal: Reading Religion
+    vol_iss:
     book:
     edit:
-    publisher:
-    page: xx
-    author:
+    publisher: "Leiden: Brill, 2016"
+    page: online
+    author: Margaret English de Alminana and Lois E. Olena, eds.
+#  - title: "Testing"
+#    type: article
+#    year: Forthcoming
+#    journal: Digital Humanities
+#    vol_iss: 2
+#    book:
+#    edit:
+#    publisher:
+  #  page: xx
+  #  author:
   #- title: "Messianic Age, World Christianity"
     #type: encyclopedia
   #  year: 2020
