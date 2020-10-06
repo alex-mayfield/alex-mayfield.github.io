@@ -2,6 +2,7 @@
 title: Alex R. Mayfield
 description: Global Church Historian and Pentecostal Scholar
 baseurl: "https://alex-mayfield.github.io" # the subpath of your site, e.g. /blog
+encoding: UTF-8
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
