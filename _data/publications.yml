@@ -109,3 +109,13 @@ list:
     publisher: "Grand Rapids, MI: Baker Academic, 2019"
     page: xx
     author: Amos Yong
+  - title: "Messianic Age | World Christianity"
+    type: encyclopedia
+    year: "2020"
+    journal:
+    vol_iss:
+    book: Encyclopedia of the Bible and its Reception
+    edit: 	Christine Helmer, Steven L MacKenzie, Thomas Römer, Jens Schröter, Barry Dov Walfish, and Eric Jozef Ziolkowski
+    publisher: "Boston: De Gruyter, 2017-2020"
+    page: online
+    author:
