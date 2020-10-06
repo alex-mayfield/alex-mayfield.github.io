@@ -89,13 +89,23 @@ list:
     publisher: "Leiden: Brill, 2016"
     page: online
     author: Margaret English de Alminana and Lois E. Olena, eds.
-  - title: "Messianic Age, World Christianity"
-    type: encyclopedia
-    year: 2020
-    journal:
-    vol_iss:
-    book: Encyclopedia of the Bible and its Reception
-    edit: Furey, et al.
-    publisher: "De Gruyter"
-    page: online
+  - title: "Testing"
+    type: article
+    year: Forthcoming
+    journal: Digital Humanities
+    vol_iss: 2
+    book:
+    edit:
+    publisher:
+    page: xx
     author:
+  #- title: "Messianic Age, World Christianity"
+    #type: encyclopedia
+  #  year: 2020
+  #  journal:
+  #  vol_iss:
+  #  book: Encyclopedia of the Bible and its Reception
+  #  edit: Furey, et al.
+  #  publisher: "De Gruyter"
+    #page: online
+    #author:
