@@ -91,7 +91,7 @@ list:
     author: Margaret English de Alminana and Lois E. Olena, eds.
   - title: "Messianic Age, World Christianity"
     type: encyclopedia
-    year: Forth.
+    year: 2020
     journal:
     vol_iss:
     book: Encyclopedia of the Bible and its Reception
@@ -99,13 +99,23 @@ list:
     publisher: "De Gruyter"
     page: online
     author:
-  - title:
-    type:
-    year:
-    journal:
-    vol_iss:
+  - title: "Leaping the Digital Gorge: Datasets, Digital Aesthetics, and the China Historical Christian Database"
+    type: article
+    year: Forth.
+    journal: Digital Humanities [數字人文]
+    vol_iss: 2
     book:
     edit:
     publisher:
-    page:
+    page: xx
     author:
+  - title: "Mission after Pentecost: The Witness of the Spirit from Genesis to Revelation"
+    type: review
+    year: Forth.
+    journal: International Bulletin of Mission Research
+    vol_iss:
+    book:
+    edit:
+    publisher: "Grand Rapids, MI: Baker Academic, 2019"
+    page: xx
+    author: Amos Yong
