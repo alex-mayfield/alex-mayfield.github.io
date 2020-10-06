@@ -91,11 +91,21 @@ list:
     author: Margaret English de Alminana and Lois E. Olena, eds.
   - title: "Leaping the Digital Gorge: Datasets, Aesthetics, and the China Historical Christian Database"
     type: article
-    year: Forth.
+    year: 2021
     journal: Digital Humanities
-    vol_iss: 2
+    vol_iss:
     book:
     edit:
     publisher:
-    page: 299-321
+    page: xx
     author:
+  - title: "Mission After Pentecost: The Witness of the Spirit from Genesis to Revelation"
+    type: review
+    year: 2019
+    journal: International Bulletin of Mission Research
+    vol_iss:
+    book:
+    edit:
+    publisher: "Grand Rapids, MI: Baker Academic, 2019"
+    page: xx
+    author: Amos Yong
