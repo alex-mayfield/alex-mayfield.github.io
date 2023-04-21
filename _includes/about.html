@@ -14,7 +14,7 @@
 <div class="row">
   <div class="third">
     <h2>Doctorate</h2>
-    <p><b>2021</b><br>Received a Ph.D. in World Christian History from Boston University, School of Theology. Exams: Pre-Reformation History, Post-Reformation History, & Missiology.</p>
+    <p><b>2021</b><br>Received a Ph.D. in World Christian History from Boston University, School of Theology.</p>
   </div>
   <div class="third">
     <h2>Masters</h2>
@@ -124,23 +124,6 @@
   {% endif %}
 {% endfor %}
 
-<!-- MINISTRY EXPERIENCE -------------------------------------------------------------------------------------->
-<div class="section-title" id="experience"><h1>Ministry Experience</h1></div>
-
-<div class="row-full">
-  <div class="full">
-    {% for item in site.data.ministry.list %}
-      {% if forloop.first %}
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
-  </div>
-</div>
-
 <!-- TEACHING & RESEARCH EXPERIENCE --------------------------------------------------------------------------->
 <div class="section-title" id="teaching"><h1>Teaching & Research Experience</h1></div>
 <div class="row-full">
@@ -163,6 +146,23 @@
               {% endfor %}
             </ul>
           </td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
+<!-- MINISTRY EXPERIENCE -------------------------------------------------------------------------------------->
+<div class="section-title" id="experience"><h1>Ministry Experience</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.ministry.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>

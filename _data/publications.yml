@@ -19,7 +19,7 @@ list:
     publisher:
     page: 87-107
     author:
-  - title: "Spiritual Exceptionalism?: An Ethnographic Survey of Transnational Pentecostal Communities in Boston’s Inner Core"
+  - title: "Spiritual Exceptionalism?: An Ethnographic Survey of Transnational Pentecostal Communities in Boston's Inner Core"
     type: article
     year: "2017"
     journal: Missiology
@@ -29,7 +29,7 @@ list:
     publisher:
     page: 299-321
     author:
-  - title: "Seal of the Spirit: The Sacrament of Confirmation and Pentecostal ‘Spirit Baptism’"
+  - title: "Seal of the Spirit: The Sacrament of Confirmation and Pentecostal Spirit Baptism"
     type: article
     year: "2016"
     journal: Journal of Pentecostal Theology
@@ -41,23 +41,13 @@ list:
     author:
   - title: "Shanghai Brothels, Spirit Baptisms: The Door of Hope Women as a Source for Pentecostal Ressourcement"
     type: chapter
-    year: Forthcoming
+    year: "2022"
     journal:
     vol_iss:
     book: "Sisters, Mothers, Daughters: Pentecostal Perspectives on Violence Against Women"
     edit: Michael Palmer, Mark Cartledge, Kimberly Alexander, and Melissa Archer
     publisher: "Leiden: Brill"
-    page: xx
-    author:
-  - title: "Simon K.H. Chan: A Pentecostal Theologian of the Church"
-    type: chapter
-    year: Forthcoming
-    journal:
-    vol_iss:
-    book: Voices of the Spirit
-    edit: David Bradnick
-    publisher: Wipf and Stock
-    page: xx
+    page: 135-153
     author:
   - title: "Relocating World Christianity: Interdisciplinary Studies in Universal and Local Expressions of the Christian Faith"
     type: review
@@ -91,23 +81,23 @@ list:
     author: Margaret English de Alminana and Lois E. Olena, eds.
   - title: "Leaping the Digital Gorge: Datasets, Aesthetics, and the China Historical Christian Database"
     type: article
-    year: "Forthcoming"
+    year: "2022"
     journal: Digital Humanities 數字人文
-    vol_iss:
+    vol_iss: "4"
     book:
     edit:
     publisher:
-    page: xx
+    page: 123-34
     author:
   - title: "Mission After Pentecost: The Witness of the Spirit from Genesis to Revelation"
     type: review
-    year: "2021"
+    year: "2022"
     journal: International Bulletin of Mission Research
-    vol_iss:
+    vol_iss: 45.4
     book:
     edit:
     publisher: "Grand Rapids, MI: Baker Academic, 2019"
-    page: xx
+    page: 447-448
     author: Amos Yong
   - title: "Messianic Age | World Christianity"
     type: encyclopedia
@@ -121,11 +111,51 @@ list:
     author:
   - title: "Arrows Flying to the Five Continents: Hong Kong and Structures of Pentecostal Print Culture, 1907-1942"
     type: chapter
-    year: "Forthcoming"
+    year: "2023"
     journal:
     vol_iss:
     book: The Pentecostal World
     edit: Michael Wilkinson and Jörg Haustein
     publisher: "Routledge"
-    page:
+    page: 67-81
     author:
+  - title: "Pentecostals Among the Plagues: Early Chinese Pentecostal Theologies of Sickness, Healing, and Pandemics"
+    type: chapter
+    year: "Forthcoming"
+    journal:
+    vol_iss:
+    book: "The Pandemic & the Holy Spirit: From Lament to Hope and Healing"
+    edit: Wonsuk Ma, Opoku Onyinah, and Rebekah Bled
+    publisher: "Oral Roberts University Press"
+    page: xx
+    author:
+  - title: "Fighting for Souls in the Latter Rain: Eschatology and Early Chinese Pentecostal Witness"
+    type: chapter
+    year: "Forthcoming"
+    journal:
+    vol_iss:
+    book: "Chinese Christian Witness: Identity, Creativity and Transmission"
+    edit: Xiaoli Yang and Daryl Ireland 
+    publisher: 
+    page: xx
+    author:
+  - title: "Missions Étrangères de Paris (MEP) and China from the Seventeenth Century to the Present"
+    type: review
+    year: "Forthcoming"
+    journal: Journal of Ecclesiastical History
+    vol_iss: 
+    book:
+    edit:
+    publisher: "Leiden: Brill, 2022"
+    page: xx
+    author: Ji Li (ed.)
+  - title: "The Kaleidoscopic City: Hong Kong, Mission, and the Evolution of Global Pentecostalism"
+    type: review
+    year: 2023 (Release November 1)
+    journal: 
+    vol_iss: 
+    book:
+    edit:
+    publisher: "Waco, TX: Baylor University Press, 2023"
+    page:
+    author: 
