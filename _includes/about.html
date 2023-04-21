@@ -152,23 +152,6 @@
   </div>
 </div>
 
-<!-- MINISTRY EXPERIENCE -------------------------------------------------------------------------------------->
-<div class="section-title" id="experience"><h1>Ministry Experience</h1></div>
-
-<div class="row-full">
-  <div class="full">
-    {% for item in site.data.ministry.list %}
-      {% if forloop.first %}
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
-  </div>
-</div>
-
 <!-- AWARDS --------------------------------------------------------------------------------------------------->
 <div class="section-title" id="awards"><h1>Scholarships & Awards</h1></div>
 <div class="row-full">
@@ -233,3 +216,22 @@
         </thead></table>
   </div>
 </div>
+
+<!-- MINISTRY EXPERIENCE -------------------------------------------------------------------------------------->
+<div class="section-title" id="experience"><h1>Ministry Experience</h1></div>
+
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.ministry.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
+
