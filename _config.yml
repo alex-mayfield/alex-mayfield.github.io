@@ -1,14 +1,14 @@
 # Site settings
 title: Alex R. Mayfield
-description: Global Historian of Christianity
+description: Historian of Global Christianity
 baseurl: "https://alex-mayfield.github.io" # the subpath of your site, e.g. /blog
 encoding: UTF-8
 #url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Alex R. Mayfield
-user_description: Alex Mayfield is a Assistant Professor of History at Asbury University. His research utilizes digital methodologies to reconstruct historical networks and movements within global Christianity. His current research and teaching interests include global history, pentecostal and charismatic movements, mission history in East Asia, and urban history. His current scholarly focus is on the China Historical Christian Database, an international collaborative project which seeks to identify every Christian person, event, and institution in China between 1550 and 1950. With his help the project has become the largest collection of data on Christian actors in China's past, and it continues to grow. His book,The Kaleidoscopic City (Baylor University Press, 2023) explores how how changes in the structural and conceptual frameworks of foreign pentecostals had a dramatic impact on the shape of Hong Kong pentecostalism.
-user_title: Global Historian of Christianity
+user_description: Alex Mayfield is a Assistant Professor of History at Asbury University. His research utilizes digital methodologies to reconstruct historical networks and movements within global Christianity. His current research and teaching interests include global history, pentecostal and charismatic movements, mission history in East Asia.
+user_title: Historian of Global Christianity
 email: alex.mayfield@asbury.edu
 # twitter_username: lorem_ipsum
 # github_username:  lorem_ipsum
