@@ -41,9 +41,9 @@
       {% if forloop.first %}
         <h2>Monographs</h2>
         <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td><i>{{item.title}}</i> ({{item.publisher}}).</td></tr>
       {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td><i>{{item.title}}</i> ({{item.publisher}}).</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
@@ -63,9 +63,9 @@
       {% if forloop.first %}
         <h2>Book Chapters</h2>
         <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}} ({{item.publisher}}), {{item.page}}.</td></tr>
       {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}}, ({{item.publisher}}), {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," in <i>{{item.book}}</i>, ed. {{item.edit}} ({{item.publisher}}), {{item.page}}.</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
