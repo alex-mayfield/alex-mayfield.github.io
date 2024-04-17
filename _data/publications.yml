@@ -121,7 +121,7 @@ list:
     author:
   - title: "Pentecostals Among the Plagues: Early Chinese Pentecostal Theologies of Sickness, Healing, and Pandemics"
     type: chapter
-    year: "Forth."
+    year: "2024"
     journal:
     vol_iss:
     book: "The Pandemic & the Holy Spirit: From Lament to Hope and Healing"
@@ -141,21 +141,51 @@ list:
     author:
   - title: "Missions Étrangères de Paris (MEP) and China from the Seventeenth Century to the Present"
     type: review
-    year: "Forth."
+    year: "2023"
     journal: Journal of Ecclesiastical History
     vol_iss: 
     book:
     edit:
     publisher: "Leiden: Brill, 2022"
-    page: xx
+    page:  888 - 890
     author: Ji Li (ed.)
   - title: "The Kaleidoscopic City: Hong Kong, Mission, and the Evolution of Global Pentecostalism"
     type: book
     year: "2023"
     journal: 
-    vol_iss: 
+    vol_iss: "74.4"
     book:
     edit:
     publisher: "Waco, TX: Baylor University Press, 2023"
     page:
     author: 
+  - title: "Christians in the City of Hong Kong: Chinese Christianity in Asia's World City"
+      type: review
+      year: "Forth."
+      journal: "Ching Feng: A Journal on Christianity and Chinese Religion and Culture"
+      vol_iss: 
+      book:
+      edit:
+      publisher: "London: Bloomsbury, 2023"
+      page:  xx
+      author: Tobias Brandner
+  - title: "A Statistical Analysis of the Early Pentecostal Movement in China"
+    type: chapter
+    year: "Forth."
+    journal:
+    vol_iss:
+    book: "Volume 3: East Asia. Brill's Encyclopedia of Global Pentecostalism Supplements"
+    edit: Connie Au and Reginal Alva
+    publisher: "Leiden: Brill"
+    page: xx
+    author:
+  - title: "North America"
+    type: chapter
+    year: "Forth."
+    journal:
+    vol_iss:
+    book: "Volume 10. Compact Atlas of Global Christianity. Edinburgh Companions to Global Christianity"
+    edit: Kenneth R. Ross, Gina A. Zurlo and Todd M. Johnson
+    publisher: "Edinburgh: Edinburgh University Press"
+    page: xx
+    author:
