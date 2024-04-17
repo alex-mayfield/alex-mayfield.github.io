@@ -74,9 +74,9 @@
       {% if forloop.first %}
         <h2>Book Reviews</h2>
         <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}. In <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
       {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author}}, <i>{{item.title}}</i>, ({{item.publisher}}), {{item.page}}. In <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
@@ -168,13 +168,26 @@
   </div>
 </div>
 
-<!-- CONFERENCE ----------------------------------------------------------------------------------------------->
-<div class="section-title" id="speaking"><h1>Conference Presentations</h1></div>
+<!-- Presentations  ----------------------------------------------------------------------------------------------->
+<div class="section-title" id="speaking"><h1>Presentations</h1></div>
 
 <div class="row-full">
   <div class="full">
+
+    {% for item in site.data.lectures.list %}
+      {% if forloop.first %}
+      <h2>Invited Lectures</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.meeting}}</i>.</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.meeting}}</i>.</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
     {% for item in site.data.conferences.list %}
       {% if forloop.first %}
+      <h2>Conference Presentations</h2>
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.meeting}}</i>.</td></tr>
       {% else %}
