@@ -195,7 +195,7 @@ list:
     journal: Data
     vol_iss: 9.6
     book: 
-    edit: "Co-authored with Margaret Frei, Daryl Ireland, Eugenio Menegon."
+    edit: 
     publisher: 
     page: "https://doi.org/10.3390/data9060076"
-    author:
+    author: Alex Mayfield, Margaret Frei, Daryl Ireland, Eugenio Menegon
