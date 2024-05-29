@@ -189,4 +189,13 @@ list:
     publisher: "Edinburgh: Edinburgh University Press"
     page: xx
     author:
-  
+  - title: "The China Historical Christian Database: A Dataset Quantifying Christianity in China from 1550 to 1950"
+    type: article
+    year: "2024"
+    journal: Data
+    vol_iss: 9.6
+    book: 
+    edit: "Co-authored with Margaret Frei, Daryl Ireland, Eugenio Menegon."
+    publisher: 
+    page: "https://doi.org/10.3390/data9060076"
+    author:
