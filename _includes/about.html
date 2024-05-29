@@ -52,9 +52,9 @@
       {% if forloop.first %}
         <h2>Peer-Reviewed Journal Articles</h2>
         <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author | append: " "}}"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
       {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.author | append: " "}}"{{item.title}}," <i>{{item.journal}}</i> {{item.vol_iss}}, {{item.page}}.</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
