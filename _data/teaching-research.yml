@@ -2,17 +2,18 @@ list:
   - title: Assistant Professor of History, Asbury University
     year: Since 2022
     details:
-      - exp: Western Civilization I/II
+      - exp: Christian History to 1500
+      - exp: Christian History since 1500
       - exp: Early Global History
+      - exp: Digital Methods in the Humanities
       - exp: Empire & Resistance
       - exp: Historical Research and Writing
       - exp: History of Latin America
+      - exp: Technology and the Human Experience
       - exp: East Asian History & Civilization
       - exp: The City in Global History
-      - exp: Digital Methods in the Humanities
-      - exp: Christian History to 1500
-      - exp: Christian History since 1500
-      - exp: "Homo Technologicus: Technology and the Historical Human Experience"
+      - exp: Western Civilization I/II
+
   - title: Postdoctoral Researcher, Center for Global Christianity and Mission, Boston University
     year: 2021-22
   - title: Graduate Teaching Fellow, Boston University School of Theology
@@ -23,7 +24,3 @@ list:
       - exp: Introduction to Christian Mission (lecture)
       - exp: Church Renewal (seminar)
       - exp: Evangelism and Contemporary Cultures (lecture)
-  - title: Research Assistant, Boston College School of Theology and Ministry
-    year: 2013-14
-    details:
-      - exp: Spanish-language research into Catholic pastoral theology

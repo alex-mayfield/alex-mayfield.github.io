@@ -26,6 +26,34 @@
   </div>
 </div>
 
+<!-- TEACHING & RESEARCH EXPERIENCE --------------------------------------------------------------------------->
+<div class="section-title" id="teaching"><h1>Teaching & Research Experience</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.teaching-research.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
+            <ul>
+              {% for entry in item.details %}
+                <li> {{entry.exp }}</li>
+              {% endfor %}
+            </ul>
+          </td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
+            <ul>
+              {% for entry in item.details %}
+                <li> {{entry.exp }}</li>
+              {% endfor %}
+            </ul>
+          </td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
 <!-- PUBLICATIONS -------------------------------------------------------------------------------------->
 <div class="section-title" id="publications"><h1>Publications</h1></div>
 
@@ -124,50 +152,6 @@
   {% endif %}
 {% endfor %}
 
-<!-- TEACHING & RESEARCH EXPERIENCE --------------------------------------------------------------------------->
-<div class="section-title" id="teaching"><h1>Teaching & Research Experience</h1></div>
-<div class="row-full">
-  <div class="full">
-    {% for item in site.data.teaching-research.list %}
-      {% if forloop.first %}
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
-            <ul>
-              {% for entry in item.details %}
-                <li> {{entry.exp }}</li>
-              {% endfor %}
-            </ul>
-          </td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}<br>
-            <ul>
-              {% for entry in item.details %}
-                <li> {{entry.exp }}</li>
-              {% endfor %}
-            </ul>
-          </td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
-  </div>
-</div>
-
-<!-- AWARDS --------------------------------------------------------------------------------------------------->
-<div class="section-title" id="awards"><h1>Scholarships & Awards</h1></div>
-<div class="row-full">
-  <div class="full">
-    {% for item in site.data.awards.list %}
-      {% if forloop.first %}
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
-  </div>
-</div>
-
 <!-- Presentations  ----------------------------------------------------------------------------------------------->
 <div class="section-title" id="speaking"><h1>Presentations</h1></div>
 
@@ -198,6 +182,22 @@
   </div>
 </div>
 
+<!-- AWARDS --------------------------------------------------------------------------------------------------->
+<div class="section-title" id="awards"><h1>Scholarships & Awards</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.awards.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
 <!-- SERVICE -------------------------------------------------------------------------------------------------->
 <div class="section-title" id="service"><h1>Service to Profession</h1></div>
 
@@ -214,6 +214,7 @@
         </thead></table>
   </div>
 </div>
+
 <!-- AFFILIATIONS --------------------------------------------------------------------------------------------->
 <div class="section-title"><h1>Professional Affiliations</h1></div>
 <div class="row-full">
