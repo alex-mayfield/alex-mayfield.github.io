@@ -1,4 +1,9 @@
 list:
+  - title: The Robert Morrison Papers
+    img: /assets/img/rm-logo.png
+    link: https://scalar.digitalasbury.com/morrison/
+    role: Lead Editor
+    date: Since 2025
   - title: China Historical Christian Database
     img: /assets/img/chcd-logo.png
     link: https://chcdatabase.com/

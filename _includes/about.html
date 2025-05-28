@@ -127,7 +127,7 @@
 <div class="section-title" id="projects"><h1>Digital Projects</h1></div>
 
 {% for item in site.data.digital-projects.list %}
-  {% assign loopindex = forloop.index | modulo: 4 %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
   {% if loopindex == 1 %}
   <div class="row">
   <div class="third">
@@ -248,5 +248,4 @@
   </div>
 </div>
 --->
-
 

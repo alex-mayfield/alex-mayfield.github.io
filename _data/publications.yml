@@ -156,7 +156,7 @@ list:
     vol_iss: "74.4"
     book:
     edit:
-    publisher: "Waco, TX: Baylor University Press, 2023"
+    publisher: "Waco, TX: Baylor University Press"
     page:
     author: 
   - title: "Christians in the City of Hong Kong: Chinese Christianity in Asia's World City"
@@ -181,7 +181,7 @@ list:
     author:
   - title: "North America"
     type: chapter
-    year: "Forth."
+    year: "2025"
     journal:
     vol_iss:
     book: "Volume 10. Compact Atlas of Global Christianity. Edinburgh Companions to Global Christianity"
