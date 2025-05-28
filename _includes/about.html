@@ -27,7 +27,7 @@
 </div>
 
 <!-- TEACHING & RESEARCH EXPERIENCE --------------------------------------------------------------------------->
-<div class="section-title" id="teaching"><h1>Teaching & Research Experience</h1></div>
+<div class="section-title" id="teaching"><h1>Experience</h1></div>
 <div class="row-full">
   <div class="full">
     {% for item in site.data.teaching-research.list %}
@@ -124,36 +124,44 @@
 </div>
 
 <!-- DIGITAL PROJECTS -------------------------------------------------------------------------------------->
-<div class="section-title" id="projects"><h1>Digital Projects</h1></div>
+<div class="section-title" id="projects"><h1>Digital Projects & Public Scholarship</h1></div>
 
 {% for item in site.data.digital-projects.list %}
-  {% assign loopindex = forloop.index | modulo: 5 %}
+  {% assign loopindex = forloop.index | modulo: 3 %}
   {% if loopindex == 1 %}
   <div class="row">
-  <div class="third">
-    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
-    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+      </div>
+    {% elsif loopindex == 2 %}
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+      </div>
+    {% elsif loopindex == 3 %}
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+      </div>
+  </div>
+  <div class="row">
+    {% elsif loopindex == 4 %}
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+      </div>
+    {% elsif loopindex == 5 %}
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
+      </div>
+    {% else %}
+    <div class="third">
+      <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
+      <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
     </div>
-  {% elsif loopindex == 2 %}
-  <div class="third">
-    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
-    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
-    </div>
-  {% elsif loopindex == 3 %}
-  <div class="third">
-    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
-    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
-    </div>
-  {% elsif loopindex == 4 %}
-  <div class="third">
-    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
-    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
-    </div>
-  {% else %}
-  <div class="third">
-    <a href="{{ item.link }}"><img src="{{ item.img }}"></a>
-    <p><b>{{ item.role }}</b><br>{{ item.date }}</p>
-  </div></div>
+  </div>
   {% endif %}
 {% endfor %}
 
@@ -204,7 +212,7 @@
 </div>
 
 <!-- SERVICE -------------------------------------------------------------------------------------------------->
-<div class="section-title" id="service"><h1>Service to Profession</h1></div>
+<div class="section-title" id="service"><h1>Service</h1></div>
 
 <div class="row-full">
   <div class="full">
