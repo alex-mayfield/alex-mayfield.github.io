@@ -131,13 +131,13 @@ list:
     author:
   - title: "Fighting for Souls in the Latter Rain: Eschatology and Early Chinese Pentecostal Witness"
     type: chapter
-    year: "Forth."
+    year: "2026"
     journal:
     vol_iss:
     book: "Chinese Christian Witness: Identity, Creativity and Transmission"
     edit: Xiaoli Yang and Daryl Ireland 
     publisher: "Leiden: Brill"
-    page: xx
+    page: 255-72
     author:
   - title: "Missions Étrangères de Paris (MEP) and China from the Seventeenth Century to the Present"
     type: review
@@ -167,7 +167,7 @@ list:
     book:
     edit:
     publisher: "London: Bloomsbury, 2023"
-    page:  xx
+    page:  191-95
     author: Tobias Brandner
   - title: "A Statistical Analysis of the Early Pentecostal Movement in China"
     type: chapter
@@ -187,7 +187,7 @@ list:
     book: "Volume 10. Compact Atlas of Global Christianity. Edinburgh Companions to Global Christianity"
     edit: "Kenneth R. Ross, Gina A. Zurlo and Todd M. Johnson"
     publisher: "Edinburgh: Edinburgh University Press"
-    page: xx
+    page: 168-71
     author:
   - title: "The China Historical Christian Database: A Dataset Quantifying Christianity in China from 1550 to 1950"
     type: article
@@ -199,3 +199,13 @@ list:
     publisher: 
     page: "https://doi.org/10.3390/data9060076"
     author: Alex Mayfield, Margaret Frei, Daryl Ireland, Eugenio Menegon
+  - title: "Pentecostals on Justification and Evangelization: Historical and Contemporary Perspectives"
+    type: chapter
+    year: "2026"
+    journal:
+    vol_iss:
+    book: "Proclaiming Jesus Christ: Catholics and Evangelical Perspectives on Evangelization"
+    edit: "Steven Hoskins and Christian D. Washburn"
+    publisher: "Saint Paul, MN: Saint Paul Seminary Press"
+    page: 94-113
+    author:
