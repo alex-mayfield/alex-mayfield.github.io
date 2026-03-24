@@ -1,9 +1,17 @@
 list:
-  - title: "Tets"
-    grantee: "Trust"
-    year: 2025
-    amount: 400
-  - title: "Another"
-    grantee: "Trust"
+  - title: "The Missionary Database and Map Initiative: A Collaborative Digital Humanities Project"
+    grantee: Planning Grant, Council of Christian Colleges & Universities
     year: 2023
-    amount: 500
+    amount: 5000
+  - title: "China Historical Christian Database: Mapping the Social and Spatial Relationships of Christianity in China, 1550-1950"
+    grantee: Digital Humanities Advancement Grant, National Endowment for the Humanities
+    year: 2021
+    amount: 100000
+  - title: "Pentecostal Hong Kong: Mapping Mission in Global Pentecostal Discourse, 1907-1942:
+    grantee: Springboard Funding, Boston University School of Theology
+    year: 2019
+    amount: 2000
+  - title: "The China Christian Database: An Essential Digital Tool for the Cartography and Prosopography of Christianity in China"
+    grantee: Research Incubation Award, Rafik B. Hariri Institute for Computing Science & Engineering, Boston University
+    year: 2018
+    ammount: 5526
