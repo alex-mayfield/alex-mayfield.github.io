@@ -212,7 +212,7 @@
         
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
-        <h2>Awarded Grants</h2>
+        <h2>Grants Recieved</h2>
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.amount}}</td></tr>
       {% else %}
@@ -221,16 +221,6 @@
     {% endfor %}
         </thead></table>
 
-    {% for item in site.data.grants-applied.list %}
-      {% if forloop.first %}
-        <h2>Submitted Grants</h2>
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.amount}}</td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.amount}}</td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
   </div>
 </div>
 
