@@ -1,0 +1,9 @@
+list:
+  - title: "Tets"
+    grantee: "Trust"
+    year: 2025
+    amount: 400
+  - title: "Another"
+    grantee: "Trust"
+    year: 2023
+    amount: 500

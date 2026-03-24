@@ -211,6 +211,22 @@
   </div>
 </div>
 
+<!-- APPPLIED GRANTS  --------------------------------------------------------------------------------------------------->
+<div class="section-title" id="applied-grants"><h1>Submitted Grants</h1></div>
+<div class="row-full">
+  <div class="full">
+    {% for item in site.data.grants-applied.list %}
+      {% if forloop.first %}
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.ammount}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.ammount}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+  </div>
+</div>
+
 <!-- SERVICE -------------------------------------------------------------------------------------------------->
 <div class="section-title" id="service"><h1>Service</h1></div>
 
