@@ -199,31 +199,32 @@
 <div class="section-title" id="awards"><h1>Grants & Awards</h1></div>
 <div class="row-full">
   <div class="full">
-    {% for item in site.data.awards.list %}
-      {% if forloop.first %}
-        <h2>Honors & Awards</h2>
-        <table class="publication"><thead>
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% else %}
-          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
-      {% endif %}
-    {% endfor %}
-        </thead></table>
         
-        <h2>Grants Recieved</h2>
-        <h3>
-          {% assign total_sum = 0 %}
-          {% for item in site.data.grants-awarded.list %}
-            {% assign total_sum = total_sum | plus: item.amount %}
-          {% endfor %}
-          ${{total_sum}}
-        </h3>
+    <h2>Grants Recieved</h2>
+    <h3>
+      {% assign total_sum = 0 %}
+      {% for item in site.data.grants-awarded.list %}
+        {% assign total_sum = total_sum | plus: item.amount %}
+      {% endfor %}
+      Total: ${{total_sum}}
+    </h3>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.amount}}</td></tr>
       {% else %}
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.amount}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+
+    {% for item in site.data.awards.list %}
+      {% if forloop.first %}
+        <h2>Honors & Scholarships</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
