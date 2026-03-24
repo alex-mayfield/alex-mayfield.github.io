@@ -201,11 +201,22 @@
   <div class="full">
     {% for item in site.data.awards.list %}
       {% if forloop.first %}
-        <h2>Awarded Grants</h2>
+        <h2>Awards & Honors</h2>
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
       {% else %}
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
+      {% endif %}
+    {% endfor %}
+        </thead></table>
+        
+    {% for item in site.data.grants-awarded.list %}
+      {% if forloop.first %}
+        <h2>Awarded Grants</h2>
+        <table class="publication"><thead>
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.ammount}}</td></tr>
+      {% else %}
+          <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.ammount}}</td></tr>
       {% endif %}
     {% endfor %}
         </thead></table>
