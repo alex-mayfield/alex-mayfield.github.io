@@ -196,11 +196,12 @@
 </div>
 
 <!-- AWARDS --------------------------------------------------------------------------------------------------->
-<div class="section-title" id="awards"><h1>Scholarships & Awards</h1></div>
+<div class="section-title" id="awards"><h1>Grants & Awards</h1></div>
 <div class="row-full">
   <div class="full">
     {% for item in site.data.awards.list %}
       {% if forloop.first %}
+        <h2>Awarded Grants</h2>
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}</td></tr>
       {% else %}
@@ -208,14 +209,9 @@
       {% endif %}
     {% endfor %}
         </thead></table>
-  </div>
-</div>
 
-<!-- APPPLIED GRANTS  --------------------------------------------------------------------------------------------------->
-<div class="section-title" id="applied-grants"><h1>Submitted Grants</h1></div>
-<div class="row-full">
-  <div class="full">
     {% for item in site.data.grants-applied.list %}
+      <h2>Submitted Grants</h2>
       {% if forloop.first %}
         <table class="publication"><thead>
           <tr><td><b>{{item.year}}</b></td><td>{{item.title}}, <i>{{item.grantee}}</i>, ${{item.ammount}}</td></tr>
