@@ -209,9 +209,9 @@
       
       {% assign digit_string = total_sum | append: "" %}
       {% assign digit_array = digit_string | split: "" %}
-        {% assign last-three = digit_array | slice: -1, 3 %}
-        {% assign second-three = digit_array | slice: -4, 3 %}
-        {% assign first-three = digit_array | slice: -7, 3 %}
+        {% assign last-three = digit_array | slice: -3, 3 %}
+        {% assign second-three = digit_array | slice: -6, 3 %}
+        {% assign first-three = digit_array | slice: -9, 3 %}
 
       Total: ${{first-three}},{{second-three}},{{last-three}}
     </h4>
