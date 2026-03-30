@@ -218,8 +218,8 @@
           {% capture test %}{{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
           {% assign final =  test %}
         {% else % }
-          {% capture test %}{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
-          {% assign final =  test %}
+          {% capture test2 %}{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
+          {% assign final =  test2 %}
         {% endif %}
 
       Total: ${{final}}
