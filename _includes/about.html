@@ -214,11 +214,11 @@
         {% assign first-three = digit_array | slice: -9, 3 %}
 
       {% assign final = 0 %}
+       {% capture test %}{{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
+      {% capture test2 %}{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
         {% if first-three.length != 0 %} 
-          {% capture test %}{{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
           {% assign final =  test %}
         {% else % }
-          {% capture test2 %}{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %}
           {% assign final =  test2 %}
         {% endif %}
 
