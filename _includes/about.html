@@ -213,7 +213,14 @@
         {% assign second-three = digit_array | slice: -6, 3 %}
         {% assign first-three = digit_array | slice: -9, 3 %}
 
-      Total: ${{first-three}},{{second-three}},{{last-three}}
+      {% assign final = 0 %}
+        {% if first-three.length = 0  %} 
+          {% assign final =  second-three | append: "," | append: last-three %}
+        {% else % }
+          {% assign final =  first-three | append: "," | second-three | append: "," | append: last-three %}
+        {% endif %}
+
+      Total: ${{final}}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
