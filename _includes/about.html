@@ -212,9 +212,9 @@
         {% assign last-three = digit_array | slice: -3, 3 %}
         {% assign second-three = digit_array | slice: -6, 3 %}
         {% assign first-three = digit_array | slice: -9, 3 %}
-        
+
       Total: ${{second-three | join: "" }},{{last-three | join: "" }}
-      <!-- USE WHEN OVER 1 MILLION --> {{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }}{% endcapture %} <!---->
+      <!-- USE WHEN OVER 1 MILLION --> {{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }} <!---->
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
