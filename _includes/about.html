@@ -217,7 +217,7 @@
         {% if first-three = nil OR first-three = " " OR first-three = "" %} 
           {% assign final =  second-three | append: "," | append: last-three %}
         {% else % }
-          {% assign final =  first-three | append: "," | second-three | append: "," | append: last-three %}
+          {% assign final =  first-three | append: "," | append: second-three | append: "," | append: last-three %}
         {% endif %}
 
       Total: ${{final}}
