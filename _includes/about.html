@@ -206,10 +206,19 @@
       {% for item in site.data.grants-awarded.list %}
         {% assign total_sum = total_sum | plus: item.amount %}
       {% endfor %}
+      
       {% assign digit_string = total_sum | append: "" %}
       {% assign digit_array = digit_string | split: "" %}
-      {%  assign last-three = digit_array| reverse | slice: 0, 3 %}
-      Total: ${{ last-three | reverse }}
+        {% assign last-three = digit_array| reverse | slice: 0, 3 %}
+          {% assign last = last-three | reverse %}
+        {% assign second-three = digit_array| reverse | slice: 4, 6 %}
+          {% assign second = second-three | reverse %}
+        {% assign first-three = digit_array| reverse | slice: 7, 9 %}
+          {% assign first = first-three | reverse %}
+
+      {% capture final %}{{ first | append:","}}{{ second | append:","}}{{ last | append:","}}{% endcapture %}
+
+      Total: ${{final}}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
