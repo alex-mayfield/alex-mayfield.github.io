@@ -210,15 +210,10 @@
       {% assign digit_string = total_sum | append: "" %}
       {% assign digit_array = digit_string | split: "" %}
         {% assign last-three = digit_array| reverse | slice: 0, 3 %}
-          {% assign last = last-three | reverse %}
         {% assign second-three = digit_array| reverse | slice: 4, 6 %}
-          {% assign second = second-three | reverse %}
         {% assign first-three = digit_array| reverse | slice: 7, 9 %}
-          {% assign first = first-three | reverse %}
 
-      {% assign whole = first | append:"," | append: second | append:"," | append: third %}
-
-      Total: ${{ whole }}
+      Total: ${{first-three | reverse}},{{second-three | reverse}},{{last-three | reverse}}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
