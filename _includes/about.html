@@ -214,7 +214,7 @@
         {% assign first-three = digit_array | slice: -9, 3 %}
 
       Total: ${{second-three | join: "" }},{{last-three | join: "" }}
-      <!-- USE WHEN OVER 1 MILLION --> {{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }} <!---->
+      <!-- USE WHEN OVER 1 MILLION  {{first-three | join: "" }},{{second-three | join: "" }},{{last-three | join: "" }} -->
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
