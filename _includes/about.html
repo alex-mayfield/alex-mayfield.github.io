@@ -220,7 +220,7 @@
           {% assign final =  first-three | append: "," | second-three | append: "," | append: last-three %}
         {% endif %}
 
-      Total: ${{final}}{{first-three}}
+      Total: ${{final}}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
