@@ -216,7 +216,9 @@
         {% assign first-three = digit_array| reverse | slice: 7, 9 %}
           {% assign first = first-three | reverse %}
 
-      Total: ${{ first | append:","}}{{ second | append:","}}{{ last | append:","}}
+      {% assign whole = first | append:"," | append: second | append:"," | append: third %}
+
+      Total: ${{ whole }}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
