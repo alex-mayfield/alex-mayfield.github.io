@@ -208,7 +208,8 @@
       {% endfor %}
       {% assign digit_string = total_sum | append: "" %}
       {% assign digit_array = digit_string | split: "" %}
-      Total: ${{digit_array}}
+      {%  assign last-three = digit_array| reverse | slice: 0, 3 %}
+      Total: ${{ last-three | reverse }}
     </h4>
     {% for item in site.data.grants-awarded.list %}
       {% if forloop.first %}
