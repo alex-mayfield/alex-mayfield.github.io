@@ -214,7 +214,7 @@
         {% assign first-three = digit_array | slice: -9, 3 %}
 
       {% assign final = 0 %}
-        {% if first-three.length = 0  %} 
+        {% if first-three = nil OR first-three = " " OR first-three = "" %} 
           {% assign final =  second-three | append: "," | append: last-three %}
         {% else % }
           {% assign final =  first-three | append: "," | second-three | append: "," | append: last-three %}
