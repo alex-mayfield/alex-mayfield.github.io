@@ -210,8 +210,8 @@
       {% assign digit_string = total_sum | append: "" %}
       {% assign digit_array = digit_string | split: "" %}
         {% assign last-three = digit_array| reverse | slice: 0, 3 %}
-        {% assign second-three = digit_array| reverse | slice: 4, 6 %}
-        {% assign first-three = digit_array| reverse | slice: 7, 9 %}
+        {% assign second-three = digit_array| reverse | slice: 4, 7 %}
+        {% assign first-three = digit_array| reverse | slice: 8, 10 %}
 
       Total: ${{first-three | reverse}},{{second-three | reverse}},{{last-three | reverse}}
     </h4>
