@@ -1,6 +1,15 @@
 list:
+  - title: Associate Professor of Historical Theology & Global Christianity, Oral Roberts University  
+    year: Since 2026
+    details:
+      - exp: PhD Seminar in History of Christian Doctrine
+      - exp: Seminar in Theological Research
+      - exp: Ethics and Contemporary Issues
+      - exp: World Religions
+      - exp: Systemmatic Theology I/II
+
   - title: Assistant Professor of History, Asbury University
-    year: Since 2022
+    year: 2022-2026
     details:
       - exp: Christian History to 1500
       - exp: Christian History since 1500
@@ -15,10 +24,10 @@ list:
       - exp: Western Civilization I/II
 
   - title: Postdoctoral Researcher, Center for Global Christianity and Mission, Boston University
-    year: 2021-22
+    year: 2021-2022
   
   - title: Graduate Teaching Fellow, Boston University School of Theology
-    year: 2017-21
+    year: 2017-2021
     details:
       - exp: Introduction to Christian Traditions (lecture with discussion)
       - exp: Christianity Engaging Modernity (lecture with discussion)

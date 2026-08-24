@@ -169,15 +169,15 @@ list:
     publisher: "London: Bloomsbury, 2023"
     page:  191-95
     author: Tobias Brandner
-  - title: "A Statistical Analysis of the Early Pentecostal Movement in China"
+  - title: "The Pentecostal Missionary Enterprise in China: A Demographic Overview (1908-1940)"
     type: chapter
-    year: "Forth."
+    year: "2025"
     journal:
     vol_iss:
     book: "Volume 3: East Asia. Brill's Encyclopedia of Global Pentecostalism Supplements"
     edit: Connie Au and Reginal Alva
     publisher: "Leiden: Brill"
-    page: xx
+    page: "https://doi.org/10.1163/3050-8282_EGPS_SIM_087873"
     author:
   - title: "North America"
     type: chapter
@@ -208,4 +208,24 @@ list:
     edit: "Steven Hoskins and Christian D. Washburn"
     publisher: "Saint Paul, MN: Saint Paul Seminary Press"
     page: 94-113
+    author:
+  - title: "Mok Lai Chi (1866—1926) [莫禮智]"
+    type: encyclopedia
+    year: "2026"
+    journal:
+    vol_iss:
+    book: "Biographical Dictionary of Global Spirit-Empowered Christianity"
+    edit: "William M. Wilson, Wonsuk Ma, and Jaime L. Riddle"
+    publisher: "Oral Roberts University Press"
+    page: "https://sedictionary.org/biographies/Chi-Mok-Lai.php"
+    author:
+  - title: "John Sung (1901—1944) [宋尚节]"
+    type: encyclopedia
+    year: "2026"
+    journal:
+    vol_iss:
+    book: "Biographical Dictionary of Global Spirit-Empowered Christianity"
+    edit: "William M. Wilson, Wonsuk Ma, and Jaime L. Riddle"
+    publisher: "Oral Roberts University Press"
+    page: "https://sedictionary.org/biographies/Sung-John.php"
     author:
